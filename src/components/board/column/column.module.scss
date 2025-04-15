@@ -1,6 +1,6 @@
 .column {
   width: 450px;
-  min-height: 197px;
+  min-height: 98px;
 
   .header {
     border-top-left-radius: 10px;
@@ -194,5 +194,11 @@
 @media (min-width: 320px) and (max-width: 338px) {
   .column {
     width: 282px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .column {
+    margin-bottom: 20px;
   }
 }

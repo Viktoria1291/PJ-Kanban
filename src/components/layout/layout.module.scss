@@ -12,3 +12,9 @@ main {
     flex-shrink: 0;
     padding: 20px 17px;
 }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .layout {
+        height: auto;
+    }
+  }
